@@ -1,0 +1,27 @@
+# ==============================================================================
+# .gitattributes — Sistema de Gestión de Usuarios y Documentos
+# ==============================================================================
+
+# Normalización automática de saltos de línea
+* text=auto
+
+# Archivos de código fuente en Python y Markdown
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=crlf
+*.json text eol=lf
+*.csv text eol=crlf
+
+# Scripts de Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Archivos binarios que no deben ser transformados
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.exe binary
+*.dll binary
+*.db binary

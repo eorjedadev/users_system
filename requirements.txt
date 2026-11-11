@@ -1,0 +1,7 @@
+# Requerimientos de dependencias externas
+# Nota: La aplicacion utiliza exclusivamente modulos de la biblioteca estandar de Python
+# (tkinter, sqlite3, csv, pathlib, logging, unittest) para ejecucion local, garantizando
+# cero dependencias externas en tiempo de ejecucion.
+#
+# La unica dependencia externa es para la fase de empaquetado y distribucion:
+pyinstaller>=6.0.0

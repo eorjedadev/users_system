@@ -1,0 +1,6 @@
+"id","full_name","username","rut","phone","email","area_or_group","address","created_at","updated_at"
+"1","Juan Carlos Perez Soto","jperez","15423891-2","987654321","juan.perez@ejemplo.com","Soporte Tecnico","Av. Providencia 1234","2026-01-15 09:00:00","2026-01-15 09:00:00"
+"2","Maria Elena Gonzalez Silva","mgonzalez","16782345-K","981234567","maria.gonzalez@ejemplo.com","Operaciones","Calle Agustinas 567, Piso 3","2026-01-15 09:05:00","2026-01-15 09:05:00"
+"3","Rodrigo Andres Silva Morales","rsilva",NULL,"976543210","rodrigo.silva@ejemplo.com","Atencion al Cliente","Apoquindo 3100","2026-01-15 09:10:00","2026-01-15 09:10:00"
+"4","Camila Andrea Tapia Rojas","ctapia","18234901-5","965432109","camila.tapia@ejemplo.com","Administracion","Moneda 980, Oficina 402","2026-01-15 09:15:00","2026-01-15 09:15:00"
+"5","Patricio Alejandro Cortez Diaz","pcortez","14567890-3","954321098","patricio.cortez@ejemplo.com","Infraestructura TI","Huerfanos 750","2026-01-15 09:20:00","2026-01-15 09:20:00"

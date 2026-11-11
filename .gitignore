@@ -1,0 +1,102 @@
+# ==============================================================================
+# .gitignore — Sistema de Gestión de Usuarios y Documentos
+# Autor: Eduardo Orjeda Figueroa
+# ==============================================================================
+
+# --- Entornos Virtuales de Python ---
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# --- Bytecode y Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg
+
+# --- Artefactos de Compilación PyInstaller ---
+build/
+dist/
+*.spec
+*.manifest
+*.exe
+*.dll
+
+# --- Bases de Datos Locales y Archivos Temporales SQLite ---
+# NOTA: La aplicación almacena la base de datos en %LOCALAPPDATA%\GestionUsuarios\
+# Estas reglas previenen que copias de prueba o volcados locales se suban a GitHub.
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.db.bak
+backups/
+
+# --- Registros del Sistema y Logs ---
+*.log
+logs/
+app.log
+
+# --- Protección de Datos Sensibles / Información Corporativa (PII) ---
+# IMPORTANTE: No exponer datos reales de usuarios, RUTs, teléfonos o correos de empresas.
+docs/data-*.csv
+data-*.csv
+*.csv.bak
+# Permitir únicamente la plantilla de ejemplo segura y anonimizada:
+!docs/sample_users.csv
+
+# --- Secretos y Variables de Entorno ---
+.env
+.env.local
+.env.*.local
+*.secret
+*.key
+*.pem
+
+# --- Archivos de Sistema Operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Configuraciones de IDEs y Editores de Código ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --- Pruebas y Cobertura ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Artefactos Temporales de Desarrollo y Agentes ---
+scratch/
+.system_generated/
+*.tmp
